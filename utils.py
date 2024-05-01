@@ -2,6 +2,8 @@ import scipy.misc
 import numpy as np
 import copy
 import os
+
+
 class ImagePool(object):
     def __init__(self, maxsize=50):
         self.maxsize = maxsize

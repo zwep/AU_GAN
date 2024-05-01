@@ -1,0 +1,27 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 0 issues that require attention
+--------------------------------------------------------------------------------
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file '.\\main copy.py'
+ outputting to '.\\main_conv.py'
+--------------------------------------------------------------------------------
+
+9:12: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+16:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+18:12: INFO: Renamed 'tf.get_variable_scope' to 'tf.compat.v1.get_variable_scope'
+20:19: INFO: Renamed 'tf.get_variable_scope' to 'tf.compat.v1.get_variable_scope'
+45:17: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+49:21: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+56:21: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+164:12: INFO: Changed tf.image.resize_bicubic call to tf.image.resize(..., method=tf.image.ResizeMethod.BICUBIC).
+168:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+170:12: INFO: Renamed 'tf.get_variable_scope' to 'tf.compat.v1.get_variable_scope'
+172:19: INFO: Renamed 'tf.get_variable_scope' to 'tf.compat.v1.get_variable_scope'
+--------------------------------------------------------------------------------
+
