@@ -23,6 +23,7 @@ parser.add_argument(
     default=10,
     help="# of epoch to decay lr",
 )
+
 parser.add_argument(
     "--batch_size", dest="batch_size", type=int, default=1, help="# images in batch"
 )

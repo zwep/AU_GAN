@@ -487,11 +487,8 @@ class AUGAN:
         )
 
     def load(self, checkpoint_dir):
-        print(f" [*] Reading checkpoint...{checkpoint_dir}")
-
         model_dir = "%s_%s" % (self.dataset_dir, self.image_size)
         checkpoint_dir = os.path.join(checkpoint_dir, model_dir)
-        print(f" [*] Nr 2 Reading checkpoint: {os.path.abspath(checkpoint_dir)}")
         checkpoint_dir = os.path.abspath(checkpoint_dir)
         ckpt = tf.train.get_checkpoint_state(checkpoint_dir)
         if ckpt and ckpt.model_checkpoint_path:
